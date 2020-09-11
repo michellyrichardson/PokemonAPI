@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #eee;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  
+  margin: 50px auto;
+  width: 100%;
+  
+}
+
+.flex-container {
+  display: inline-flex;
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.6)
+}
+
+p {
+  color: #262D31;
+  font-size: 25px;
+}
+
+img {width: 100px}
+
+.button {
+  background-color: #262D31;
+  border: none;
+  color: #eee;
+  padding: 15px;
+  font-size: 20px;
+  box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.9);
+  margin: 4px 0 20px 0px;
 }
